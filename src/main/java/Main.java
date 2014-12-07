@@ -28,10 +28,10 @@ public class Main {
         System.out.println("Posição    Time 1        Time 2");
         int tam = (time2.getJogadores()).size();
 
-        for(String k: keys){
+        keys.stream().forEach((k) -> {
             Jogador j1 = (Jogador) (time1.getJogadores()).get(k);
             Jogador j2 = (Jogador) (time2.getJogadores()).get(k);
             System.out.printf("%-11s%2d - %-14s%2d - %s\n",k, j1.getNum(), j1, j2.getNum(), j2);
-        }
+        });
     }
 }
