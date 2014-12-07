@@ -6,8 +6,9 @@
  * Template de projeto de programa Java usando Maven.
  * @author Wilson Horstmeyer Bogado <wilson@utfpr.edu.br>
  */
+import utfpr.ct.dainf.if62c.pratica.Jogador;
+import utfpr.ct.dainf.if62c.pratica.Time;
 import java.util.Set;
-import utfpr.dainf.if62c.pratica.*;
 
 public class Main {
     public static void main(String[] args) {
